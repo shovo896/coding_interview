@@ -6,6 +6,7 @@ int main(){
     while(x!=0){
         int last = x % 10 ;
         sum += last ;
+        printf("last %d sum= %d\n",last,sum);
 
         x/= 10 ;
 
