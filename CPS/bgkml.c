@@ -1,12 +1,16 @@
 #include<stdio.h>
 int main(){
-    int x ;
+    int x ;   //.  `eta hobe na at the end 
     scanf("%d",&x);
-    for (;x!=0;){
-        printf("current = %d\n",x);
-        int last= x % 10 ;
-        printf("%d\n",last);
-        x = x / 10 ;
-        printf("after removing last digit = %d\n",x);
+    int sum = 0 ;
+    while(x!=0){
+        int last = x % 10 ;
+        sum += last ;
+
+        x/= 10 ;
+
     }
+    printf("%d\n",sum);
+    return 0 ;
+
 }
