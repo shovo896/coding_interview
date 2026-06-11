@@ -12,6 +12,7 @@ int main(void) {
 
         for (int j = i; j >= 1; j--) {
             printf("%d", j);
+            if 
         }
 
         printf("\n");
