@@ -54,3 +54,9 @@ int main(){
     printf("%d\n",test7);
     return 0 ;
 }
+
+
+
+/// return  0 hoilo je runtime sucess 
+
+
