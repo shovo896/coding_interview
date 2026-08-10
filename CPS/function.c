@@ -25,6 +25,9 @@ int max(int a,int b){
         return b ;
     }
 }
+int f3(int x ,int y ){
+    return x +3*y+z ; 
+}
 
 int main(){
     int test = f(4);
@@ -37,5 +40,7 @@ int main(){
     printf("%d\n",test4);
     int test5 = max(3,5);
     printf("%d\n",test5);
+    int test6 = f3(2,3);
+    printf("%d\n",test6);
     return 0 ;
 }
