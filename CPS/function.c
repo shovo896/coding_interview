@@ -12,6 +12,11 @@ double d(double y ){
 int doubleToInt(double y){
     return (int)y;
 }
+
+int f2(int x,double y){
+    return x+y ;
+}
+
 int main(){
     int test = f(4);
     printf("%d\n",test);
@@ -19,5 +24,7 @@ int main(){
     printf("%f\n",test2);
     int test3 = doubleToInt(4.5);
     printf("%d\n",test3);
+    int test4 = f2(3,5.0);
+    printf("%d\n",test4);
     return 0 ;
 }
