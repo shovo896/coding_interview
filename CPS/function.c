@@ -28,6 +28,14 @@ int max(int a,int b){
 int f3(int x ,int y ,int z ){
     return x +3*y+z ; 
 }
+int min(int a,int b){
+    if (a<b){
+        return a ;
+    }
+    else{
+        return b ;
+    }
+}
 
 int main(){
     int test = f(4);
@@ -42,5 +50,7 @@ int main(){
     printf("%d\n",test5);
     int test6 = f3(2,3,4);
     printf("%d\n",test6);
+    int test7 = min(3,5);
+    printf("%d\n",test7);
     return 0 ;
 }
