@@ -10,7 +10,7 @@ double d(double y ){
 }
 
 int doubleToInt(double y){
-    return floor(y); 
+    return (int)y;
 }
 int main(){
     int test = f(4);
